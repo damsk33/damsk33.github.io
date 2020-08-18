@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Russo One', sans-serif;
+}
+
+body{
+	background: #585c68;
+	font-size: 14px;
+	line-height: 22px;
+	color: #555555;
+}
+
+.Mon_CV .partie_gauche .partie_droite {
+    display:inline-block;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi_bold {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.Mon_CV {
+	width: 800px;
+	height: auto;
+	display: flex;
+	margin: 50px auto;
+}
+
+.Mon_CV .partie_gauche{
+	width: 280px;
+	background: #2C2C2C;
+	float: left;
+}
+
+.Mon_CV .partie_gauche .Mon_profil{
+	width: 100%;
+	height: 280px;
+}
+
+#tof {
+	border: 2px solid #fcfcfc;
+	width: 70%;
+	height: 70%;
+	border-radius: 10px;
+	margin-left: 42px;
+	margin-top: 45px;
+}
+
+.Mon_CV .partie_gauche .Contenu_gauche {
+	padding: 0 25px;
+}
+
+
+.Mon_CV .titre{
+	margin-bottom: 20px;
+}
+
+.Mon_CV .partie_gauche .bold {
+	color: #fff;
+}
+
+.Mon_CV .partie_gauche .regular {
+	color: #b1eaff;
+}
+
+}
+
+.Mon_CV .partie_gauche .contact:last-child,
+.Mon_CV .resume_right .contact:last-child {
+  border-bottom: 0px;
+}
+
+.Mon_CV .partie_gauche ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.Mon_CV .partie_gauche ul li:last-child {
+	margin-bottom: 0;
+}
+
+.Mon_CV .partie_gauche ul li .logo {
+	border: 2px solid #fcfcfc;
+	width: 35px;
+	height: 35px;
+	color: #EEE33A;
+	border-radius: 50%;
+	margin-right: 15px;
+	font-size: 16px;
+	position: relative;
+}
+
+.Mon_CV .logo i,
+.Mon_CV .partie_droite .loisirs ul li i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.Mon_CV .partie_gauche ul li .data {
+	color: #b1eaff;
+}
+
+.Mon_CV .partie_gauche .competences ul li {
+	color: #b1eaff;
+	justify-content: space-between;
+}
+
+
+.Mon_CV .partie_gauche .competences ul li .nom_competences {
+	width: 25%;
+}
+
+.Mon_CV .partie_gauche .competences ul li .progression {
+	width: 80%;
+	margin: 0 5px;
+	height: 5px;
+	background: #EEE33A;
+	position: relative;
+}
+
+.Mon_CV .partie_gauche .competences ul li .tranche {
+	width: 15%;
+}
+
+.Mon_CV .partie_gauche .competences ul li .progression span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #fcfcfc;
+}
+
+.Mon_CV .partie_gauche .reseaux .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+
+.Mon_CV .partie_droite {
+	width: 520px;
+	background: #fcfcfc;
+	padding: 25px;
+}
+
+.Mon_CV .partie_droite .bold {
+	color: #0bb5f4;
+}
+
+.Mon_CV .partie_droite .resume_work ul,
+.Mon_CV .partie_droite .resume_education ul {
+	padding-left: 40px;
+	overflow: hidden;
+}
+
+.Mon_CV .partie_droite ul li {
+	position: relative;
+}
+
+.Mon_CV .partie_droite ul li .date {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.Mon_CV .partie_droite ul li .info {
+	margin-bottom: 20px;
+}
+
+.Mon_CV .partie_droite ul li:last-child .info {
+	margin-bottom: 0;
+}
+
+.Mon_CV .partie_droite .travail ul li:before,
+.Mon_CV .partie_droite .formation ul:before {
+    position: absolute;
+
+}
+
+.Mon_CV .partie_droite .loisirs ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Mon_CV .partie_droite .loisirs ul li {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #EEE33A;
+	border-radius: 10%;
+	position: relative;
+	color: #2C2C2C;
+}
+
+.Mon_CV .partie_droite .loisirs ul li i {
+	font-size: 60px;
+}
+
+.Mon_CV .partie_droite .xp {
+	position: absolute;
+	margin-left: 80px;
+	font-size: 25px;
+}
+
+.Mon_CV .partie_droite .contenu_liste i {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 969px) {
+	.Mon_CV  {
+		display: flex;
+		flex-direction: column;
+		width: 600px;
+	}
+	.Mon_CV .partie_gauche #tof {
+		border: 2px solid #fcfcfc;
+	    width: 110px;
+	    height: 110px;
+	    border-radius: 10px;
+	    margin-left: 470px;
+	    margin-bottom: 250px;
+	}
+
+	.Mon_CV .partie_gauche .Mon_profil {
+        height: 25px;
+        width: 100%;
+	} 
+
+	.Mon_CV .partie_droite {
+		width: auto;
+	}
+
+	.Mon_CV .partie_gauche {
+		width: 100%;
+		height: 300px;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .contenu_liste {
+		display: inline-block;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .reseaux {
+		float: right;
+		margin-right: 80px;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .reseaux ul {
+		margin-top: 42px;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .competences {
+		display: none;
+	}
+}
