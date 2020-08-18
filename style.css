@@ -270,7 +270,7 @@ body{
 		display: flex;
 		flex-direction: column;
 		width: 300px;
-		margin: 0;
+		margin: 0px auto;
 	}
 	.Mon_CV .partie_gauche #tof {
 		display: none;
