@@ -264,3 +264,53 @@ body{
 		display: none;
 	}
 }
+
+@media screen and (max-width: 731px) {
+	.Mon_CV  {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+	.Mon_CV .partie_gauche #tof {
+		display: none;
+	}
+
+	.Mon_CV .partie_gauche .Mon_profil {
+        height: 25px;
+        width: 100%;
+	} 
+
+	.Mon_CV .partie_droite {
+		width: auto;
+	}
+
+	.Mon_CV .partie_gauche {
+		width: 100%;
+		height: 300px;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .contenu_liste {
+		display: inline-block;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .reseaux {
+		display: none;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .reseaux ul {
+		margin-top: 42px;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .competences {
+		display: none;
+	}
+
+	.Mon_CV .partie_droite .xp {
+		margin-left: 10px;
+	}
+
+	.Mon_CV .partie_droite .loisirs ul li i {
+		font-size: 40px;
+	}
+}
+
