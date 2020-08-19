@@ -277,7 +277,7 @@ body{
 	}
 }
 
-@media screen and (max-width: 731px) {
+@media screen and (max-width: 431px) {
 	.Mon_CV  {
 		display: flex;
 		flex-direction: column;
