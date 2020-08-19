@@ -192,20 +192,27 @@ body{
 
 .Mon_CV .partie_droite .loisirs ul {
 	display: flex;
+}
+
+.Mon_CV .partie_gauche .loisirs ul li {
+	border: 2px solid #fcfcfc;
+	width: 100px;
+	height: 80px;
+	color: #EEE33A;
+	font-size: 40px;
+	position: relative;
+}
+
+.Mon_CV .partie_gauche .loisirs ul {
+	display: flex;
 	justify-content: space-between;
 }
 
-.Mon_CV .partie_droite .loisirs ul li {
-	width: 80px;
-	height: 80px;
-	border: 2px solid #EEE33A;
-	border-radius: 10%;
-	position: relative;
-	color: #2C2C2C;
-}
-
-.Mon_CV .partie_droite .loisirs ul li i {
-	font-size: 60px;
+.Mon_CV .partie_gauche .loisirs ul li i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 .Mon_CV .partie_droite .xp {
@@ -217,6 +224,11 @@ body{
 .Mon_CV .partie_droite .contenu_liste i {
 	font-size: 30px;
 }
+
+#etoile {
+	height: 120px;
+}
+
 
 @media screen and (max-width: 969px) {
 	.Mon_CV  {
@@ -256,11 +268,11 @@ body{
 		margin-right: 80px;
 	}
 
-	.Mon_CV .partie_gauche .Contenu_gauche .reseaux ul {
-		margin-top: 42px;
+	.Mon_CV .partie_gauche .Contenu_gauche .competences {
+		display: none;
 	}
 
-	.Mon_CV .partie_gauche .Contenu_gauche .competences {
+	.Mon_CV .partie_gauche .Contenu_gauche .loisirs {
 		display: none;
 	}
 }
@@ -312,6 +324,10 @@ body{
 
 	.Mon_CV .partie_droite .loisirs ul li i {
 		font-size: 40px;
+	}
+
+	.Mon_CV .partie_gauche .Contenu_gauche .loisirs {
+		display: none;
 	}
 }
 
