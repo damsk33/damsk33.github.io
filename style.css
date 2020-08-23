@@ -228,7 +228,7 @@ body {
     padding: 12px;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 969px) {
    .CV  {
 	   display: flex;
 	   flex-direction: column;
@@ -276,11 +276,11 @@ body {
        margin-top: -20px;
    }
 
-@media screen and (max-width: 625px){
+@media screen and (max-width: 624px){
    .CV  {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     margin: 0;
    }
    .CV .droite {
