@@ -281,6 +281,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 350px;
+    margin: 0;
    }
    .CV .droite {
        width: 350px;
@@ -290,7 +291,7 @@ body {
    .CV .gauche {
        width: 360px;
    } 
-   
+
    .CV .gauche .un {
     margin-left: 0px; 
     margin-bottom: 20px;
