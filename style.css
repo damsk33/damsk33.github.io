@@ -4,7 +4,7 @@ body {
 
 .CV {
     width: 800px;
-    height: 1215px;
+    height: auto;
     display: flex;
     margin: 50px auto;
 }
