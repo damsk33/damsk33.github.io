@@ -260,6 +260,7 @@ body {
 
    .CV .droite {
    padding: 0px 30px 0px 50px;
+   padding-bottom: 30px;
    }
 
    #resp {
@@ -323,6 +324,7 @@ body {
    .CV .droite {
        width: 350px;
        padding: 0px 0px 0px 10px;
+       padding-bottom: 30px;
    }
 
    .CV .gauche {
