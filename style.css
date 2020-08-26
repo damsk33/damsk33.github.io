@@ -249,8 +249,10 @@ body {
    }
    .CV .gauche #tof {
     display: flex;
-    width: 60%;
-    margin-left: 60px;
+    width: 50%;
+    margin-left: 70px;
+    height: auto;
+    margin-right: -10px;
    }
 
    .CV .gauche .un {
@@ -346,8 +348,8 @@ body {
    }
 
    .CV .gauche .photo {
-       margin-left: 35px;
-       margin-bottom: 75px;
+       margin-left: 40px;
+       margin-bottom: 85px;
        margin-top: -20px;
    }
 
@@ -378,5 +380,5 @@ body {
    }
 
    #resp {
-       margin-top: 0px;
+       margin-top: 10px;
    }
