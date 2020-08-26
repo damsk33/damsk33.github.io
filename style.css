@@ -302,7 +302,7 @@ body {
 
    .CV .gauche .moi {
     font-size: 25px;
-    color: gold;
+    color: goldenrod;
     }
 
     .CV .gauche .moi2 {
@@ -311,7 +311,7 @@ body {
     }
 
     .CV .gauche .metier .trait {
-        text-decoration: underline gold;
+        text-decoration: underline goldenrod;
     } 
 
 @media screen and (max-width: 624px){
