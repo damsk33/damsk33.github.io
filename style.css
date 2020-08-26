@@ -15,6 +15,7 @@ body {
     float: left;
 }
 
+
 .CV .droite {
     width: 520px;
     background: #fcfcfc;
@@ -115,6 +116,10 @@ body {
 .CV .droite i .esp {
     color: black;
     margin-left: 20px;
+}
+
+#resp {
+    display: none;
 }
 
 .CV .droite .separation {
@@ -230,6 +235,7 @@ body {
     padding: 12px;
 }
 
+
 @media screen and (max-width: 969px) {
    .CV  {
 	   display: flex;
@@ -243,18 +249,33 @@ body {
    }
    .CV .gauche #tof {
     display: flex;
-    width: 200px;
+    width: 60%;
+    margin-left: 60px;
    }
 
    .CV .gauche .un {
-       margin-left: 70px;
+       margin-top: -50px;
+       text-align: center;
+   }
+
+   .CV .droite {
+   padding: 0px 30px 0px 50px;
+   }
+
+   #resp {
+       color: #fcfcfc;
+       display: block;
+       text-align: center;
+       font-size: large;
+       margin-left: 30px;
+       margin-top: 35px;
    }
 
    .CV .gauche .un address {
        margin-left: 0;
    }
    .CV .gauche .un .contact {
-       width: 288px;
+       width: 600px;
    }
 
    .CV .gauche .deux {
@@ -275,8 +296,22 @@ body {
    }
 
    .CV .droite .nom {
-       margin-top: -20px;
+       display: none;
    }
+
+   .CV .gauche .moi {
+    font-size: 25px;
+    color: gold;
+    }
+
+    .CV .gauche .moi2 {
+    font-size: 25px;
+    color: white;
+    }
+
+    .CV .gauche .metier .trait {
+        text-decoration: underline gold;
+    } 
 
 @media screen and (max-width: 624px){
    .CV  {
@@ -308,9 +343,10 @@ body {
        text-align: center;
    }
 
-   #tof {
-       margin-left: 75px;
-       margin-bottom: 20px;
+   .CV .gauche .photo {
+       margin-left: 35px;
+       margin-bottom: 75px;
+       margin-top: -20px;
    }
 
    .CV .gauche .trois footer {
@@ -337,4 +373,8 @@ body {
 
    .CV .gauche .deux .aboutme {
        text-align: center;
+   }
+
+   #resp {
+       margin-top: 0px;
    }
