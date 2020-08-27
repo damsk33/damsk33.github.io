@@ -315,7 +315,7 @@ body {
     .CV .gauche .metier .trait {
         text-decoration: underline goldenrod;
     } 
-
+}
 @media screen and (max-width: 624px){
    .CV  {
     display: flex;
@@ -382,3 +382,4 @@ body {
    #resp {
        margin-top: 10px;
    }
+}
