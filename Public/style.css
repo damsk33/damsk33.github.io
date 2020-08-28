@@ -134,6 +134,8 @@ body {
 .CV .droite .contenu {
     display: flex;
     font-size: 15px;
+    margin-bottom: -35px;
+    margin-top: 20px;
 }
 
 .CV .droite .contenu .pdroite {
