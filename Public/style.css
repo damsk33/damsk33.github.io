@@ -435,9 +435,6 @@ body {
    .CV .droite .nom .moi .moi2 {
     font-size: 25px;
    }
-   #xp {
-       font-size: 18px;
-   }
 
    .CV .gauche .deux .aboutme {
        text-align: center;
@@ -445,5 +442,9 @@ body {
 
    #resp {
        margin-top: 10px;
+   }
+
+   .CV .droite .contenu .pdroite .text2 {
+    margin-top: 0px;
    }
 }
