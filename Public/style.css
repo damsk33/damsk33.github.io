@@ -131,7 +131,7 @@ body {
     color: black;
 }
 
-.CV .droite article {
+.CV .droite .contenu {
     display: flex;
     font-size: 15px;
 }
@@ -177,6 +177,18 @@ body {
     font-size: 25px;
 }
 
+#xp2 {
+    margin-left: 30px;
+    color: black;
+    font-size: 25px;
+}
+
+#xp3 {
+    margin-left: 30px;
+    color: black;
+    font-size: 25px;
+}
+
 #esp {
     margin-top: -16px;
     margin-left: -12px;   
@@ -198,6 +210,14 @@ body {
 }
 
 #log {
+    font-size: 25px;
+}
+
+#log2 {
+    font-size: 25px;
+}
+
+#log3 {
     font-size: 25px;
 }
 
@@ -236,6 +256,30 @@ body {
 }
 
 #esbi {
+    margin-top: -16px;
+    margin-left: -12px;   
+    color: black;
+    list-style: none;
+    font-weight: bold;
+}
+
+#esbi2 {
+    margin-top: -16px;
+    margin-left: -12px;   
+    color: black;
+    list-style: none;
+    font-weight: bold;
+}
+
+#esbi3 {
+    margin-top: -16px;
+    margin-left: -12px;   
+    color: black;
+    list-style: none;
+    font-weight: bold;
+}
+
+#espb {
     margin-top: -16px;
     margin-left: -12px;   
     color: black;
