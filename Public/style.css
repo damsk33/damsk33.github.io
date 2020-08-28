@@ -85,9 +85,10 @@ body {
     color: floralwhite;
     justify-content: space-around;
     display: flex;
-    margin-top: -20px;
+    margin-top: 65px;
     margin-bottom: 20px;
 }
+
 
 .CV .droite header {
     line-height: 0em;
@@ -109,7 +110,7 @@ body {
 }
 
 .CV .droite i {
-    margin-top: 65px;
+    margin-top: 90px;
     color: gold;
 }
 
@@ -200,7 +201,11 @@ body {
 }
 
 .CV .droite .contenu .pdroite .text1 {
-    margin-top: 40px;
+    margin-top: 65px;
+}
+
+.CV .droite .contenu .pdroite .texto {
+    margin-top: 45px;
 }
 
 .CV .droite .contenu .pdroite .text2 {
@@ -208,7 +213,11 @@ body {
 }
 
 .CV .droite .contenu .pdroite .text3 {
-    margin-top: 58px;
+    margin-top: 60px;
+}
+
+.CV .droite .contenu .pdroite .texto2 {
+    margin-top: 48px;
 }
 
 #log {
@@ -228,6 +237,7 @@ body {
     line-height: 0.1em;
     font-size: 14px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .CV .droite .right {
