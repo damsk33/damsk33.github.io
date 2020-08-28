@@ -85,7 +85,6 @@ body {
     color: floralwhite;
     justify-content: space-around;
     display: flex;
-    margin-top: 65px;
     margin-bottom: 20px;
 }
 
@@ -110,13 +109,17 @@ body {
 }
 
 .CV .droite i {
-    margin-top: 90px;
+    margin-top: 80px;
     color: gold;
 }
 
 .CV .droite i .esp {
     color: black;
     margin-left: 20px;
+}
+
+.CV .gauche .trois {
+    margin-top: 300px;
 }
 
 #resp {
@@ -201,23 +204,23 @@ body {
 }
 
 .CV .droite .contenu .pdroite .text1 {
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 .CV .droite .contenu .pdroite .texto {
-    margin-top: 45px;
+    margin-top: 35px;
 }
 
 .CV .droite .contenu .pdroite .text2 {
-    margin-top: 42px;
+    margin-top: 55px;
 }
 
 .CV .droite .contenu .pdroite .text3 {
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 .CV .droite .contenu .pdroite .texto2 {
-    margin-top: 48px;
+    margin-top: 35px;
 }
 
 #log {
@@ -445,6 +448,10 @@ body {
    }
 
    .CV .droite .contenu .pdroite .text2 {
-    margin-top: 0px;
+    margin-top: 35px;
+   }
+
+   .CV .droite .contenu .pdroite .text3 {
+    margin-top: 55px;
    }
 }
