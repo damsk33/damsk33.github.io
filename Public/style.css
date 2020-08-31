@@ -270,6 +270,24 @@ body {
     padding: 12px;
 }
 
+#astro2 {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#game2 {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#film2 {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 20px;
+}
+
 #esbi {
     margin-top: -16px;
     margin-left: -12px;   
@@ -481,5 +499,15 @@ body {
 
    .CV .droite .contenu .pdroite .text3 {
     margin-top: 55px;
+   }
+
+   .CV .droite .lois2 {
+       padding: 0;
+       margin-bottom: 30px;
+   }
+
+   #troisbis {
+    border-radius: 30%;
+    padding: 30px;
    }
 }
