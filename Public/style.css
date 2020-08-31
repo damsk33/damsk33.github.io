@@ -301,7 +301,10 @@ body {
     list-style: none;
     font-weight: bold;
 }
-/*secondpush*/
+
+#troisbis {
+    display: none;
+}
 
 @media screen and (max-width: 969px) {
    .CV  {
@@ -349,7 +352,7 @@ body {
    }
 
    .CV .gauche .deux {
-       margin-bottom: -500px;
+       margin-bottom: -200px;
    }
 
    .CV .gauche .deux .aboutme {
@@ -381,7 +384,34 @@ body {
     .CV .gauche .metier .trait {
         text-decoration: underline goldenrod;
     } 
+
+    .CV .gauche .trois {
+        display: none;
+    }
+
+    #troisbis {
+        display: grid;
+        border: solid 2px gold;
+        margin-left: -10px;
+    }
+
+    .CV .droite .lois {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline gold;
+    }
+
+    .CV .droite .lois2 {
+        font-size: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        margin-top: -90px;
+        border: solid 2px black;
+        color: black;
+    }
 }
+
 @media screen and (max-width: 624px){
    .CV  {
     display: flex;
