@@ -256,36 +256,42 @@ body {
     border: 1px solid white;
     border-radius: 100%;
     padding: 12px;
+    color: goldenrod;
 }
 
 #game {
     border: 1px solid white;
     border-radius: 100%;
     padding: 12px;
+    color: goldenrod;
 }
 
 #film {
     border: 1px solid white;
     border-radius: 100%;
     padding: 12px;
+    color: goldenrod;
 }
 
 #astro2 {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 100%;
     padding: 20px;
+    color: goldenrod;
 }
 
 #game2 {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 100%;
     padding: 20px;
+    color: goldenrod;
 }
 
 #film2 {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 100%;
     padding: 20px;
+    color: goldenrod;
 }
 
 #esbi {
@@ -411,12 +417,14 @@ body {
         display: grid;
         border: solid 2px black;
         margin-left: -10px;
+        background-color: #2C2C2C;
     }
 
     .CV .droite .lois {
         text-align: center;
         font-size: 30px;
-        text-decoration: underline gold;
+        text-decoration: underline goldenrod;
+        color: white;
     }
 
     .CV .droite .lois2 {
