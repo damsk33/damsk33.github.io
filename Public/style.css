@@ -391,7 +391,7 @@ body {
 
     #troisbis {
         display: grid;
-        border: solid 2px gold;
+        border: solid 2px black;
         margin-left: -10px;
     }
 
@@ -407,7 +407,6 @@ body {
         justify-content: space-between;
         padding: 40px;
         margin-top: -90px;
-        border: solid 2px black;
         color: black;
     }
 }
